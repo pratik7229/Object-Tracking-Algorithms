@@ -22,7 +22,7 @@ elif tracker_type == 'CSRT':
     tracker = cv2.legacy.TrackerCSRT_create()
 
 print(tracker)
-
+print(tracker)
 
 video = cv2.VideoCapture(0)
 if not video.isOpened():
